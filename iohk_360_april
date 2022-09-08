@@ -1,0 +1,71 @@
+IOHK TownHall
+    Vasil Hardfork (tentatively 29June) will include:
+        CIP-31: Reference Inputs
+        CIP-32: Inline Datums
+        CIP-33: Reference Scripts
+        CIP-40: Collateral Outputs (only collateral required is included)
+        Two best ways to understand these CIPs:
+            IOHK Tweet https://twitter.com/InputOutputHK/status/1521096223117221888?t=lZI3m1LdE82SoHoZ2Yxexg&s=19
+            John Woods 16min YT Video https://youtu.be/zUerLu_GOQs
+        Core Interpreter:
+            script size will be 20% smaller
+            redemeers 40% faster
+            non-evaluation processing runs 80% faster
+    Cardano Foundation Initiatives:
+        Partner with U. of Zurick with summer school and research program
+        Hired community managers. 5 more marketing roles open.
+        Condo" Open source veteran driving governance future of cardano
+        veritree - 500k trees
+        consensus - 50x20ft booth. and community event on 8th, night before main event (virtual and onsite)
+    Ecosystem Growth - Morgan Schofield IOG interviews Milkomeda and WanChain
+        Milkomeda - Current limited functionality bridge ada to milkada, and support for some tokens
+            Currently a side chain, looking to move to L2 solution, which allows leveraging security of Cardano.
+                Probably not full deployment this year, but plan to make a lot of progress.
+            Working on more core functionality
+                Deployment of many protocols (such as thegraph and much more)
+                Looking to add NFT bridging functionality
+        WanChain - Dr Zhang
+            Will allow asssets in other chains to transfer to Cardano, and vice versa
+            Assets will be interoperable. Eth, WADA, NFTs foor some examples.
+            Key point made here about challenges. Other than the obvious language differences in other chains, you also have the cryptography.
+                EdDSA and ed25529. support for Secp256k1 used by bitcoin coming in hardfork
+        Kathryn Stacy - IOHK Product Marketer
+            EVM Sidechains (Programmability, Interoperability, Scalability) - Research Tab on the IOHK website
+                Makes it easier for Solidity developers to deploy on Cardano    
+                Sidechain is a very secure way of adding functionality to the chain, by reducing complex additions to core
+                Standalone Testnet > Passive Sidechain > Active Sidechain > Mainchain Deployment
+    Marlowe Pioneers Program (registraion at https://pioneers.marlowe-finance.io/)
+        Marlow is a low code solution for financial smart contracts
+        Dominika Bukowksa - Marketing/Comms Manager for this program | Omer Husain - Product Manager for Marlowe
+        program is 8 weeks
+        cli tool for Marlowe - https://iog.io/en/blog/posts/2022/04/19/introducing-the-new-command-line-interface-tool-for-marlowe/
+        Not mentioned, but i know of the following playgrounds
+            https://testnets.cardano.org/en/testnets/cardano/overview/
+            https://marlowe-playground-staging.plutus.aws.iohkdev.io/#/
+            https://playground.plutus.iohkdev.io/
+    Catalyst Updates:
+        Boostcamp mentorship porgram - workshops to help early start entrepenurs such as plutus pioneers, funded projects, and more
+        Ariob Progra - collaborating with iceaddis to facilite relationships between cardano projects and the african world
+            9 projects already starting this effort
+        Collab between Catalyst, Seedstars, and Financial Times to launch FT Cardano Blockchain Challenge
+        Any other Catalyst news will be in my in my catalyst folder i shared in dropbox
+    Developement Updates:
+        Aprox 25% of network on 1.33.0, 75% on 1.34.1
+        NODE 1.35 will be coming out in a few weeks
+        Ton of testing and progress being made on Vasil Hardfork
+    Matthew Capps talk with Sundaeswap (Pi) and Orbis (Ryan Matovu)
+        Talk mainly was a general discussion of eUTXO
+        Sundaeaswap working on V2 of their App
+        Orbis - L2 Zero knowledge proof scaling solution using ZK-Rollups
+            ZK Rollups - are ofcryptography around since 80s. Able to proof something to someone without giving up the data itself
+                Submitted to cardano mainchain and proves offchain transaction is what it says it is
+    Coti - Djed Progress
+        djed.xyz website
+        25 projects already signed for partnerships
+        Private testnet live, and coming days the public testnet should be available
+        Next step is then to do the audit
+        Then next step is for June/July to be main release
+        Djed = stablecoin, Shen = reserve coin ... need when dealing with algorithmic stablecoins
+        
+            
+        
